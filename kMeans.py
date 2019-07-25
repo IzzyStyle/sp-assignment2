@@ -29,10 +29,11 @@ def initializeClusters(num_clusters, points):
 # Entry point of application
 def main(argv):
     #Print header 
-    print "CPSC-51100, Summer 2019"
-    print "NAME: Eugene Zhuravel. Iam Wodder, Israel Nolazco"
-    print "PROGRAMMING ASSIGNMENT #2"
-    print ""
+    print(
+"""CPSC-51100, Summer 2019"
+NAME: Eugene Zhuravel. Iam Wodder, Israel Nolazco"
+PROGRAMMING ASSIGNMENT #2"
+""")
         
     #read file
     points = openFile("prog2-input-data.txt")
