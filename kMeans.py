@@ -51,15 +51,15 @@ def inputNumber(number_clusters):
             break
             
     #get user name
-    number_clusters = float(inputNumber("Enter the number of clusters: "))    
+number_clusters = float(inputNumber("Enter the number of clusters: "))    
     
-    clusters = initializeClusters(number_clusters, points)
+clusters = initializeClusters(number_clusters, points)
     
     # TODO: write k-means algorithm
     
     # TODO: print result
     
-    pass
+pass
 
 if __name__ == "__main__":
     main(sys.argv)
