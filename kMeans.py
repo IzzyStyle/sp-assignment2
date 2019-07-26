@@ -38,8 +38,20 @@ PROGRAMMING ASSIGNMENT #2"
     #read file
     points = openFile("prog2-input-data.txt")
 
+ #function ensure that the user enters an integer
+def inputNumber(number_clusters):
+    while True:
+        try:
+            userInput = int(input(number_clusters))
+
+        except ending:
+            print("Not an integer! Try again.")
+        else:
+            return userInput
+            break
+            
     #get user name
-    number_clusters = float(raw_input("Enter the number of clusters: "))    
+    number_clusters = float(inputNumber("Enter the number of clusters: "))    
     
     clusters = initializeClusters(number_clusters, points)
     
